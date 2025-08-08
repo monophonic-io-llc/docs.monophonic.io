@@ -1,6 +1,7 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "MNPHNC",
+  "theme": "linden",
   "logo": {
     "dark": "/images/full_logo.png",
     "light": "/images/full_logo.png"
