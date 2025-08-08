@@ -1,5 +1,5 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
+  "$schema": "https://mintlify.com/docs.json",
   "name": "MNPHNC",
   "theme": "linden",
   "logo": {
@@ -16,24 +16,15 @@
       "to": "#CE82DD"
     }
   },
-  "topbar": {
-    "style": "default",
-    "links": [
-      {
-        "name": "Email Us",
-        "url": "mailto:support@mnphnc.com"
-      }
-    ],
-    "cta": {
-      "name": "Back to MNPHNC",
-      "url": "https://app.mnphnc.com"
-    }
-  },
-  "sidebar": {
-    "items": [
+  "navigation": {
+    "groups": [
       {
         "group": "Get Started",
-        "pages": ["introduction", "quickstart", "faqs"]
+        "pages": [
+          "introduction",
+          "quickstart",
+          "faqs"
+        ]
       },
       {
         "group": "Content Types",
@@ -61,9 +52,25 @@
       },
       {
         "group": "Domains",
-        "pages": ["domains/default-url", "domains/custom-domain"]
+        "pages": [
+          "domains/default-url",
+          "domains/custom-domain"
+        ]
       }
     ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Email Us",
+        "href": "mailto:support@mnphnc.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Back to MNPHNC",
+      "href": "https://app.mnphnc.com"
+    }
   },
   "footer": {
     "socials": {
