@@ -16,62 +16,60 @@
       "to": "#CE82DD"
     }
   },
-  "topbarLinks": [
-    {
-      "name": "Email Us",
-      "url": "mailto:support@mnphnc.com"
+  "topbar": {
+    "style": "default",
+    "links": [
+      {
+        "name": "Email Us",
+        "url": "mailto:support@mnphnc.com"
+      }
+    ],
+    "cta": {
+      "name": "Back to MNPHNC",
+      "url": "https://app.mnphnc.com"
     }
-  ],
-  "topbarCtaButton": {
-    "name": "Back to MNPHNC",
-    "url": "https://app.mnphnc.com"
   },
-  "tabs": [],
-  "anchors": [],
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "faqs"
-      ]
-    },
-    {
-      "group": "Content Types",
-      "pages": [
-        "content-types/tracks",
-        "content-types/videos",
-        "content-types/shows",
-        "content-types/photos",
-        "content-types/merch",
-        "content-types/links"
-      ]
-    },
-    {
-      "group": "Section Types",
-      "pages": [
-        "sections/whats-a-section",
-        "sections/track-section",
-        "sections/video-section",
-        "sections/shows-section",
-        "sections/photos-section",
-        "sections/merch-section",
-        "sections/text-section",
-        "sections/hero-image-section"
-      ]
-    },
-    {
-      "group": "Domains",
-      "pages": [
-        "domains/default-url",
-        "domains/custom-domain"
-      ]
+  "sidebar": {
+    "items": [
+      {
+        "group": "Get Started",
+        "pages": ["introduction", "quickstart", "faqs"]
+      },
+      {
+        "group": "Content Types",
+        "pages": [
+          "content-types/tracks",
+          "content-types/videos",
+          "content-types/shows",
+          "content-types/photos",
+          "content-types/merch",
+          "content-types/links"
+        ]
+      },
+      {
+        "group": "Section Types",
+        "pages": [
+          "sections/whats-a-section",
+          "sections/track-section",
+          "sections/video-section",
+          "sections/shows-section",
+          "sections/photos-section",
+          "sections/merch-section",
+          "sections/text-section",
+          "sections/hero-image-section"
+        ]
+      },
+      {
+        "group": "Domains",
+        "pages": ["domains/default-url", "domains/custom-domain"]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mnphnc",
+      "website": "https://bsky.app/profile/mnphnc.bsky.social",
+      "instagram": "https://www.instagram.com/mnphncsite/"
     }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/mnphnc",
-    "website": "https://bsky.app/profile/mnphnc.bsky.social",
-    "instagram": "https://www.instagram.com/mnphncsite/"
   }
 }
