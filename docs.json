@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "MNPHNC",
+  "name": "Monophonic.io Documentation",
   "theme": "linden",
   "logo": {
     "dark": "/images/full_logo.png",
@@ -59,20 +59,22 @@
     "links": [
       {
         "label": "Email Us",
-        "href": "mailto:support@mnphnc.com"
+        "href": "mailto:support@monophonic.io"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Back to MNPHNC",
-      "href": "https://app.mnphnc.com"
+      "label": "Back to Monophonic.io",
+      "href": "https://manage.monophonic.site"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mnphnc",
-      "website": "https://bsky.app/profile/mnphnc.bsky.social",
-      "instagram": "https://www.instagram.com/mnphncsite/"
+      "instagram": "https://www.instagram.com/monophonic.io/",
+      "bluesky": "https://bsky.app/profile/mnphnc.bsky.social",
+      "x": "https://x.com/monophonicio",
+      "reddit": "https://www.reddit.com/user/mnphnc/",
+      "facebook": "https://www.facebook.com/monophonicsite"
     }
   }
 }
