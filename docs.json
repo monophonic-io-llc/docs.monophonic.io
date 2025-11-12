@@ -2,15 +2,23 @@
   "$schema": "https://mintlify.com/docs.json",
   "name": "Monophonic.io Documentation",
   "theme": "linden",
+  "fonts": {
+    "body": {
+      "family": "Archivo"
+    },
+    "heading": {
+      "family": "DM Mono"
+    }
+  },
   "logo": {
-    "dark": "/images/full_logo.png",
-    "light": "/images/full_logo.png"
+    "dark": "/images/mnphnc_dark_trans.png",
+    "light": "/images/mnphnc_light_trans.png"
   },
   "favicon": "/images/favicon.png",
   "colors": {
-    "primary": "#eb97fc",
-    "light": "#E284F5",
-    "dark": "#E284F5"
+    "primary": "#9333ea",
+    "light": "#c084fc",
+    "dark": "#12c2e9"
   },
   "navigation": {
     "groups": [
