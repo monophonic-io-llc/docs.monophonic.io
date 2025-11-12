@@ -52,6 +52,12 @@
           "domains/default-url",
           "domains/custom-domain"
         ]
+      },
+      {
+        "group": "Latest Updates",
+        "pages": [
+          "changelog"
+        ]
       }
     ]
   },
